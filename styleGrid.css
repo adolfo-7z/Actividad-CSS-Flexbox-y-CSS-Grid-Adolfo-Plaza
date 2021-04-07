@@ -1,0 +1,57 @@
+.cancha {
+    display: block;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    width: 70%;
+    height: 500px;
+    grid-template-columns: repeat(26, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.cuadricula {
+    justify-content: center;
+    align-items: center;
+    background: #00933A;
+    box-shadow: inset 0 0 0 1px white;
+    display: flex;
+}
+
+.nml-izquierda {
+    grid-row: 2 / 8;
+    grid-column: 1 / 7;
+}
+
+.ad-izquierda {
+    grid-row: 2 / 5;
+    grid-column: 7 / 14;
+}
+.ad-derecha {
+    grid-row: 2 / 5;
+    grid-column: 14 / 21;
+}
+.dc-izquierda {
+    grid-row: 5 / 8;
+    grid-column: 7 / 14;
+}
+.dc-derecha {
+    grid-row: 5 / 8;
+    grid-column: 14 / 21;
+}
+.nml-derecha {
+    grid-row: 2 / 8;
+    grid-column: 21 / 27;
+}
+.abajo-izquierda {
+    grid-column: 1 / 14;
+}
+.abajo-derecha {
+    grid-column: 14 / 27;
+}
+
+.arriba-izquierda {
+    grid-column: 1 / 14;
+}
+.arriba-derecha {
+    grid-column: 14 / 27;
+}
